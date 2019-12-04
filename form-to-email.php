@@ -1,19 +1,8 @@
 <?php
-if(!isset($_POST['submit']))
-{
-	//This page should not be accessed directly. Need to submit the form.
-	echo "error; you need to submit the form!";
-}
+
 $name = $_POST['name'];
 $visitor_email = $_POST['email'];
 $message = $_POST['message'];
-
-//Validate first
-if(empty($name)||empty($visitor_email)) 
-{
-    echo "Name and email are mandatory!";
-    exit;
-}
 
 if(IsInjected($visitor_email))
 {
@@ -22,16 +11,18 @@ if(IsInjected($visitor_email))
 }
 
 $email_from = 'beez.beezwax@gmail.com';
-$email_subject = "New Form submission";
-$email_body = "You have received a new message from the user $name.\n".
+$email_subject = "New Beezwax Feedback!";
+$email_body = "You have received a new message from $name.\n".
     "Here is the message:\n $message".
     
-$to = "tom@amazing-designs.com";//<== update the email address
+$to = "beez.beezwax@gmail.com";
 $headers = "From: $email_from \r\n";
 $headers .= "Reply-To: $visitor_email \r\n";
-//Send the email!
+
+//send the email
 mail($to,$email_subject,$email_body,$headers);
-//done. redirect to thank-you page.
+
+//done, redirect to ThankYou page.
 header('Location: ThankYou.html');
 
 
