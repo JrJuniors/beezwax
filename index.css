@@ -31,6 +31,7 @@ nav{
 nav ul{
 	list-style: none;
 	margin: 0px;
+	padding: 0px;
 }
 nav li{
 	display: inline-block;
@@ -158,8 +159,8 @@ desktop: 769 ->
 @media only screen and (max-width:768px){
 	#wrapper{width: 85%;}
 	#logo{width: 50%;}
-	h1{font-size: 30px;}
-	h2{font-size: 25px;}
+	h1{font-size: 95%;}
+	h2{font-size: 85%;}
 	button[class^="navButton"]{display: none;}
 	nav strong{display:inline-block;}
 	textarea{width: 20em;}
@@ -170,7 +171,7 @@ desktop: 769 ->
 	h1{font-size: 90%;}
 	h2{font-size: 80%;}
 	button[class^="navButton"]{display: none;}
-	nav li{display:block;}
+	nav li{display:block; margin 0px; padding: 2px 0px;}
 	nav strong{display:inline-block;}
 	textarea{width: 15em;}
 }
