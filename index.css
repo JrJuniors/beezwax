@@ -97,11 +97,11 @@ input{
 	display: block;
 	margin-top: 10px
 }
-fieldset ul{
+#inputButtons{
 	list-style: none;
 	margin: 0px;
 }
-fieldset li{
+#inputButtons li{
 	display: inline-block;
 }
 .button{
