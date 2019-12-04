@@ -105,6 +105,9 @@ input{
   	border-radius: 4px;
   	cursor: pointer;
 }
+.button:hover{
+	filter: hue-rotate(345deg);
+}
 textarea{
 	display: block;
 	margin-top: 10px;
