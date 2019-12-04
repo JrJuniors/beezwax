@@ -138,6 +138,9 @@ textarea{
 	height: 5em;
 	width: 25em;
 }
+.colorShift:hover{
+	filter: hue-rotate(345deg);
+}
 /*
 phone: <- 480
 tablet: 481 - 768
