@@ -158,7 +158,7 @@ desktop: 769 ->
 */
 
 
-@media only screen and (max-width:768px){
+@media screen and (max-width:768px){
 	#wrapper{width: 85%;}
 	#logo{width: 50%;}
 	h1{font-size: 26px;}
@@ -166,7 +166,7 @@ desktop: 769 ->
 	nav strong{display:inline-block;}
 	textarea{width: 20em;}
 }
-@media only screen and (max-width:480px){
+@media screen and (max-width:480px){
 	#wrapper{width: 95%;}
 	#logo{width: 80%;}
 	h1{font-size: 20px;}
