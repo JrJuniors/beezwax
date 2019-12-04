@@ -128,7 +128,7 @@ input{
 	font-weight: bold;
 	display: inline-block;
 }
-/*
+
 .navButton{
 	background-color: #E6AA00;
 	color: #A55A14;
@@ -142,7 +142,7 @@ input{
 	margin-bottom: 10px;
 	text-size: 30px:
 }
-*/
+
 navButton:hover{
 	filter: hue-rotate(345deg);
 }
