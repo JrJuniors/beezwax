@@ -122,6 +122,11 @@ input{
 	color: rbga(165,90,20,1.0);
 	height: 35px;
 	padding: 5px 20px;
+	border: none;
+	cursor: pointer;
+}
+navButton:hover{
+	filter: hue-rotate(345deg);
 }
 textarea{
 	display: block;
