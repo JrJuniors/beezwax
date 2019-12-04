@@ -70,6 +70,9 @@ footer{
 	text-align: center;
 }
 
+footer ul{
+	list-style:none;
+}
 
 img[class^="nav"]{
 	border: solid #CD901D;
