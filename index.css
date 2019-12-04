@@ -81,10 +81,6 @@ img[class^="nav"]{
 	border: solid #CD901D;
 	padding: 5px;
 }
-a:hover{
-	filter: hue-rotate(345deg);
-}
-
 fieldset{
 	text-size:150%;
 	border:none;
@@ -118,10 +114,6 @@ input{
 	font-weight: bold;
 	display: inline-block;
 }
-.button:hover{
-	filter: hue-rotate(345deg);
-}
-
 .navButton{
 	background-color: #E6AA00;
 	color: #A55A14;
@@ -139,9 +131,6 @@ button[class^="navButton"]{
 	font-size: 15px;
 }
 
-navButton:hover{
-	filter: hue-rotate(345deg);
-}
 textarea{
 	display: block;
 	margin-top: 10px;
