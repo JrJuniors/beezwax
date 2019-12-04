@@ -136,10 +136,11 @@ input{
   	border: none;
   	border-radius: 4px;
   	cursor: pointer;
+	font: Georgia, sans-serif;
 	font-weight: bold;
 	display: inline-block;
 	margin-bottom: 10px;
-	text-size: 25px:
+	text-size: 30px:
 }
 */
 navButton:hover{
