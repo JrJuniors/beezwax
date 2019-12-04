@@ -97,7 +97,7 @@ input{
 	display: block;
 	margin-top: 10px
 }
-input[type=submit],input[type=reset]{
+.button{
 	background-color: #CD901D;
   	color: #E0BA59;
   	padding: 6px 10px;
