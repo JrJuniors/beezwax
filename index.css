@@ -104,6 +104,7 @@ input{
   	border: none;
   	border-radius: 4px;
   	cursor: pointer;
+	font-weight: bold;
 }
 .button:hover{
 	filter: hue-rotate(345deg);
