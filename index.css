@@ -170,6 +170,7 @@ desktop: 769 ->
 	h1{font-size: 90%;}
 	h2{font-size: 80%;}
 	button[class^="navButton"]{display: none;}
-	nav strong{display:block;}
+	nav li{display:block;}
+	nav strong{display:inline-block;}
 	textarea{width: 15em;}
 }
