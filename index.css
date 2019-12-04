@@ -120,13 +120,13 @@ input{
 .navButton{
 	background-color: #E6AA00;
 	color: #A55A14;
-	height: 35px;
   	padding: 6px 10px;
   	border: none;
   	border-radius: 4px;
   	cursor: pointer;
 	font-weight: bold;
 	display: inline-block;
+	margin-bottom: 10px;
 }
 navButton:hover{
 	filter: hue-rotate(345deg);
