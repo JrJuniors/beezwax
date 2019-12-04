@@ -118,12 +118,15 @@ input{
 	filter: hue-rotate(345deg);
 }
 .navButton{
-	background-color:rbga(230,170,0,1.0);
-	color: rbga(165,90,20,1.0);
+	background-color: #E6AA00;
+	color: #A55A14;
 	height: 35px;
-	padding: 5px 20px;
-	border: none;
-	cursor: pointer;
+  	padding: 6px 10px;
+  	border: none;
+  	border-radius: 4px;
+  	cursor: pointer;
+	font-weight: bold;
+	display: inline-block;
 }
 navButton:hover{
 	filter: hue-rotate(345deg);
