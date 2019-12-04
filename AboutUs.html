@@ -56,10 +56,23 @@ using georgia font
 			<h1>Who Are We?</h1>
 			<p>We are a couple of college students at Ferris State University who realize that, without help, bees don't stand a chance.</p>
 			
-			<h2 id="head">Questions, Comments, Concerns? Let Us Know!</h2>
-
-			
-			[Section for emailing us]
+			<form method="post" name="emailForm" action="form-to-email.php">
+		
+				<h1>Questions, Comments, Concerns? Let Us Know!</h1>
+				<fieldset>
+				<legend>Send us an email!</legend>
+					<label for="name">&#42;First Name:</label>
+						<input type="text" name="name" id="name" required placeholder="John Smith">
+					<label for="email">&#42;E-mail:</label>
+						<input type="email" name="email" id="email" required placeholder="example@example.com">
+					<label for="message">&#42;Message:</label>
+						<textarea  type="text" name="message" id="message" required placeholder="Type here..."></textarea>	
+				</fieldset>
+				
+				
+				<input type="submit" value="Send" >
+				<input type="reset">
+		</form>
 		</main>
 	</div>
 	<footer>
