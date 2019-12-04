@@ -134,7 +134,7 @@ input{
 }
 
 button{
-	font-size: 25px;
+	font-size: 35px;
 }
 navButton:hover{
 	filter: hue-rotate(345deg);
