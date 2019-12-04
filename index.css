@@ -35,7 +35,13 @@ nav ul{
 nav li{
 	display: inline-block;
 }
-
+nav strong{
+	display: none;
+	color: #E0BA59;
+	border-right: solid;
+	border-left: solid;
+	padding: .5em;
+}
 #buffer{
 	height: 35px;
 	background-image: linear-gradient(#CD901D, #E0BA59);
@@ -87,12 +93,14 @@ desktop: 769 ->
 	#logo{width: 50%;}
 	h1{font-size: 30px;}
 	h2{font-size: 25px;}
-	#nav{display: none;}
+	nav img{display: none;}
+	nav strong{display:inline-block;}
 }
 @media only screen and (max-width:480px){
 	#wrapper{width: 95%;}
 	#logo{width: 80%;}
-	h1{font-size: 25px;}
-	h2{font-size: 20px;}
-	#nav{display: none;}
+	h1{font-size: 90%;}
+	h2{font-size: 80%;}
+	nav img{display: none;}
+	nav strong{display:inline-block;}
 }
