@@ -117,7 +117,12 @@ input{
 .button:hover{
 	filter: hue-rotate(345deg);
 }
-
+.navButton{
+	background-color:rbga(230,170,0,1.0);
+	color: rbga(165,90,20,1.0);
+	height: 35px;
+	padding: 5px 20px;
+}
 textarea{
 	display: block;
 	margin-top: 10px;
