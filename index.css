@@ -139,8 +139,8 @@ input{
 	font: Georgia, sans-serif;
 	font-weight: bold;
 	display: inline-block;
-	margin-bottom: 10px;
-	text-size: 50px:
+	margin:10px 5px;
+	font-size: 20px:
 }
 
 navButton:hover{
