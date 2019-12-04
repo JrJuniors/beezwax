@@ -13,7 +13,7 @@
 	padding: 10px;
 	text-align: center;
 	background-color: #CD901D;
-	margin: 0px;
+	margin: 0px auto;
 	position: relative;
 }
 
@@ -49,6 +49,7 @@ nav strong{
 #buffer{
 	height: 35px;
 	background-image: linear-gradient(#CD901D, #E0BA59);
+	margin: 0px auto;
 }
 
 body{
