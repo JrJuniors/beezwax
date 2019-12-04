@@ -75,6 +75,7 @@ footer{
 
 footer ul{
 	list-style:none;
+	padding: 0px;
 }
 
 img[class^="nav"]{
