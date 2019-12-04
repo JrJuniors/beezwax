@@ -130,7 +130,8 @@ input{
 	font-weight: bold;
 	display: inline-block;
 	margin: 5px 10px;
-	font-size: 25px:
+	font-size: 100px;
+	text-size: 5px;
 }
 
 navButton:hover{
