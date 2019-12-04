@@ -161,6 +161,7 @@ desktop: 769 ->
 	#logo{width: 80%;}
 	h1{font-size: 20px;}
 	button[class^="navButton"]{display: none;}
+	nav{margin 0px;}
 	nav ul{margin 0px; padding: 0px;}
 	nav li{display:block; margin 0px; padding: 2px 0px;}
 	nav strong{display:inline-block;}
