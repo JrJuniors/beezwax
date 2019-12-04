@@ -169,4 +169,6 @@ desktop: 769 ->
 	.navButton{display: none;}
 	nav strong{display:inline-block;}
 	textarea{width: 15em;}
+	label{float:none;}
+	fieldset{text-align: left;}
 }
