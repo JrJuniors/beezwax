@@ -157,7 +157,7 @@ desktop: 769 ->
 	#logo{width: 50%;}
 	h1{font-size: 30px;}
 	h2{font-size: 25px;}
-	navButton{display: none;}
+	button[class^="navButton"]{display: none;}
 	nav strong{display:inline-block;}
 	textarea{width: 20em;}
 }
@@ -166,9 +166,7 @@ desktop: 769 ->
 	#logo{width: 80%;}
 	h1{font-size: 90%;}
 	h2{font-size: 80%;}
-	.navButton{display: none;}
+	button[class^="navButton"]{display: none;}
 	nav strong{display:inline-block;}
 	textarea{width: 15em;}
-	label{float:none;}
-	fieldset{text-align: left;}
 }
