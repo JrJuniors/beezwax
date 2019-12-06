@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+
+fieldset{
+	text-size:150%;
+	border:none;
+}
+
+fieldset ul{
+	list-style: none;
+	padding: 0;
+}
+
+fieldset li{
+	padding-bottom: 5px;
+}
