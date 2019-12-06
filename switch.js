@@ -1,5 +1,5 @@
 document.getElementByName("wasp").addEventListener("click", submit);
 
-function detect(){
+//function detect(){
   alert("woo");
-}
+//}
