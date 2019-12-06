@@ -8,7 +8,7 @@ ISYS 288 - 001
 
 CSS document to style the majority of the website
 */
-
+/*div holding the entire page*/
 #wrapper{
 	width: 70%;
 	margin-left: auto;
@@ -16,6 +16,7 @@ CSS document to style the majority of the website
 	font: Georgia, sans-serif;
 }
 
+/*section at top holding logo and nav*/
 #header{
 	top: 0%;
 	left: 0%;
@@ -26,15 +27,18 @@ CSS document to style the majority of the website
 	position: relative;
 }
 
+/*images with the nav class*/
 img[class^="nav"]{
 	border: solid #CD901D;
 	padding: 5px;
 }
 
+/*the logo*/
 #logo{
 	width: 30%;
 }
 
+/*Josh's information div*/
 #josh{
 	width: 45%;
 	padding: 0;
@@ -43,10 +47,12 @@ img[class^="nav"]{
 	text-align:left;
 }
 
+/*our pictures*/
 #josh img, #dom img{
 	max-width:90%;
 }
 
+/*Dominic's information Div*/
 #dom{
 	width: 45%;
 	padding: 0;
@@ -54,6 +60,7 @@ img[class^="nav"]{
 	text-align: right;
 }
 
+/*div holding our two information divs*/
 #info{
 	border-top:solid thin #CD901D;
 	border-bottom:solid thin #CD901D;
@@ -63,6 +70,7 @@ img[class^="nav"]{
 	width:100%;
 }
 
+/*wasp image on wasps too*/
 #waspImg{
 	width: 35%;
 	margin: 10px;
@@ -70,12 +78,14 @@ img[class^="nav"]{
 	box-shadow: 5px 10px 5px rgba(205,145,30,0.25);
 }
 
+/*radio buttons for wasp image*/
 #waspRadios ul{
 	list-style:none;
 	margin: 0px;
 	padding: 0px;
 }
 
+/*section holding nav buttons*/
 nav{
 	background-color: #CD901D;
 	text-align: center;
@@ -83,17 +93,20 @@ nav{
 	margin: 0px;
 }
 
+/*nav list*/
 nav ul{
 	list-style: none;
 	margin: 0px;
 	padding: 0px;
 }
 
+/*nav list item*/
 nav li{
 	display: inline-block;
 	margin: 5px 5px;
 }
 
+/*nav strong element*/
 nav strong{
 	display: none;
 	color: #E0BA59;
@@ -102,17 +115,20 @@ nav strong{
 	padding: 0em 0.5em;
 }
 
+/*empty div between nav and main*/
 #buffer{
 	height: 35px;
 	background-image: linear-gradient(#CD901D, #E0BA59);
 	margin: 0px auto;
 }
 
+/*body of the website*/
 body{
 	background-color: #E0BA59;
 	background-image: url(images/backgroundHC50.PNG);
 }
 
+/*main section that body is in*/
 main{
 	display: block;
 	overflow: auto;
@@ -120,49 +136,61 @@ main{
 	padding: 0px 10px;
 }
 
+/*header1*/
 h1{
 	color: #AB7817;
 	text-shadow: 4px 4px 5px rgba(205,145,30,0.5);
 }
 
+/*table caption*/
 caption{
 	font-weight: bold;
-	text-size: 24px;
+	text-size: 30px;
 }
+
+/*table holding bees and info*/
 table {
 	border-collapse: collapse;
 	width: 100%;
 }
 
+/*table heading*/
 th{
 	background-color: #CD901D;
 	color: #E0BA59;
 	font-weight: bold;
 }
 
+/*table heading and cell*/
 th, td{
 	border-bottom: 1px solid #dddddd;
 	text-align: center;
 	vertical-align: center;
 }
 
+/*images in table*/
 table img{
 	width: 85%;
 	padding: 10px 0;
 }
+
+/*every even row in table*/
 tr:nth-child(even){background-color: rgba(205,145,30,0.25);}
 
+/*footer*/
 footer{
 	padding-top: 5px;
 	background-color: #E0BA59;
 	text-align: center;
 }
 
+/*footer list*/
 footer ul{
 	list-style:none;
 	padding: 5px 0px;
 }
 
+/*labels for email form*/
 label{
 	float: left;
 	width: 100px;
@@ -172,6 +200,7 @@ label{
 	margin-top: 10px;
 }
 
+/*labels for radio buttons*/
 label[class^=radio]{
 	float: none;
 	width: 100px;
@@ -181,25 +210,31 @@ label[class^=radio]{
 	margin-top: 0;
 }
 
+/*inputs for email form*/
 input{
 	display: block;
 	margin-top: 10px;
 }
 
+/*radio buttons*/
 input[type^=radio]{
 	margin: 10px 0 0 100px;
 	display: inline;
 }
 
+/*if an input has focus*/
 input:focus{
 	background-color: rgba(205,145,30,0.25);
 }
+
+/*the select box*/
 select{
 	margin: 10px 0 0 100px;
 	padding: 7px;
 	font-weight: bold;
 }
 
+/*the button class to make buttons pretty*/
 .button{
 	background-color: #CD901D;
   	color: #E0BA59;
@@ -212,6 +247,7 @@ select{
 	margin-top: 10px;
 }
 
+/*nav button class to make nav buttons pretty*/
 .navButton{
 	background-color: #E6AA00;
 	color: #A55A14;
@@ -222,16 +258,15 @@ select{
 	display: inline-block;
 	margin: 5px 10px;
 }
-/*
-h1[class^=shadow]{
-	text-shadow: 3px 3px 7px rgba(205,145,30,0.25);
-}*/
+
+/*buttons with navButton class*/
 button[class^="navButton"]{
 	font-size: 5px;
 	font-weight: bold;
 	font-size: 15px;
 }
 
+/*message text area in email form*/
 textarea{
 	display: block;
 	margin-top: 10px;
@@ -239,10 +274,12 @@ textarea{
 	width: 25em;
 }
 
+/*colorshift class change color on hover*/
 .colorShift:hover{
 	filter: hue-rotate(345deg);
 }
 
+/*links with email class*/
 a[class^=email]{
 	color: #CD901D;
 	text-decoration: none;
@@ -254,7 +291,7 @@ tablet: 481 - 768
 desktop: 769 ->
 */
 
-
+/*tablet screen and smaller*/
 @media screen and (max-width:768px){
 	#wrapper{width: 85%;}
 	#logo{width: 50%;}
@@ -263,6 +300,7 @@ desktop: 769 ->
 	nav strong{display:inline-block;}
 	textarea{width: 20em;}
 }
+/*mobile phone screen and smaller*/
 @media screen and (max-width:480px){
 	#wrapper{width: 95%;}
 	#logo{width: 80%;}
