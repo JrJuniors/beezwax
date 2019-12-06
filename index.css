@@ -189,6 +189,9 @@ input[type^=radio]{
 	display: inline;
 }
 
+input:focus{
+	background-color: rgba(205,145,30,0.25);
+}
 select{
 	margin: 10px 0 0 100px;
 	padding: 7px;
