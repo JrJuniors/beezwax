@@ -1,4 +1,14 @@
 <?php
+/*
+Dominic Lutz
+Joshua Peoples
+12/6/2019
+Professor Kinuthia
+ISYS 288 - 001
+
+PHP document to email the developers if the user has feedback. This isn't used currently because Github does not
+support the usage of PHP
+*/
 
 $name = $_POST['name'];
 $visitor_email = $_POST['email'];
