@@ -16,10 +16,7 @@
 	margin: 0px auto;
 	position: relative;
 }
-img{/*
-	max-width: 35%;
-	height: auto;*/
-}
+
 img[class^="nav"]{
 	border: solid #CD901D;
 	padding: 5px;
@@ -50,7 +47,7 @@ img[class^="nav"]{
 	border-top:solid thin #CD901D;
 	border-bottom:solid thin #CD901D;
 	text-align:center;
-	padding: 0;
+	padding: 0% 0 5% 0;
 	margin: 0;
 	width:100%;
 }
