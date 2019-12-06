@@ -32,7 +32,6 @@ img[class^="nav"]{
 
 #josh{
 	max-width: 50%;
-	padding: 2.5%;
 	border-right: solid thin #CD901D;
 }
 #josh img{
@@ -212,6 +211,11 @@ desktop: 769 ->
 	nav li{display:block; margin: 0px; padding: 2px 0px;}
 	nav strong{display:inline-block;}
 	textarea{width: 15em;}
-	#josh,#dom{text-align:center;border:none;padding:0;}
+	#josh,#dom{
+		text-align:center;
+		border:none;
+		padding:0;
+		max-width:100%;
+	}
 	#josh img,#dom img{max-width:75%;}
 }
