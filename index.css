@@ -46,6 +46,12 @@ img[class^="nav"]{
 	display: inline-block;
 	text-align: right;
 }
+#info{
+	border-top:solid thin #CD901D;
+	border-bottom:solid thin #CD901D;
+	padding: 0;
+	margin: 0;
+}
 nav{
 	background-color: #CD901D;
 	text-align: center;
