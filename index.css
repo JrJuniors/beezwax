@@ -34,6 +34,7 @@ img[class^="nav"]{
 	max-width: 50%;
 	padding: 0;
 	border-right: solid thin #CD901D;
+	display: inline-block;
 }
 #josh img{
 	max-width:90%;
@@ -41,10 +42,11 @@ img[class^="nav"]{
 #dom{
 	max-width: 50%;
 	padding: 0;
-	border-left: solid thin #CD901D;
+	border-left: solid thin #CD901D;/*
 	float: right;
 	position: relative;
-	position: right;
+	position: right;*/
+	display: inline-block;
 }
 nav{
 	background-color: #CD901D;
