@@ -47,7 +47,7 @@ function s(){
 			waspImg.src = "images/wasps/threadwaistedwasp.jpg";
 			break;
 		case "groundDiggerWasp":
-			waspImg.src = "images/wasps/grounddiggerasp.jpg";
+			waspImg.src = "images/wasps/grounddiggerwasp.jpg";
 			break;
 	}
 	
