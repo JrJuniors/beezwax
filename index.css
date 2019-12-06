@@ -39,7 +39,7 @@ img[class^="nav"]{
 }
 #dom{
 	width: 45%;
-	padding: 0 0 5% 0;
+	padding: 0;
 	display: inline-block;
 	text-align: right;
 }
@@ -47,7 +47,7 @@ img[class^="nav"]{
 	border-top:solid thin #CD901D;
 	border-bottom:solid thin #CD901D;
 	text-align:center;
-	padding: 0% 0 5% 0;
+	padding: 0;
 	margin: 0;
 	width:100%;
 }
