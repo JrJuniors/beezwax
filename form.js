@@ -3,9 +3,14 @@ function submit(){
 	var name = document.getElementById("name").value;
 	var email = document.getElementById("email").value;
 	var message = document.getElementById("message").value;
-	var radios = document.getElementById("radios").value;
 	var selects = document.getElementById("selects").value;
-	  
+	var radios;
+	if(document.getElementById("radios").checked){
+		radios = "yes";
+	}
+	else{
+		radios = "no";
+	}
 	if (name == ""){
 		alert("Name must be entered!");
 		document.getElementById("name").style.backgroundColor = "blanchedalmond"; 
