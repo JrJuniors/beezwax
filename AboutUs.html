@@ -65,25 +65,45 @@ using georgia font
 			<p>I am ...</p>
 			
 		<form method="post" name="emailForm" action="">
+		
 			<h1>Questions, Comments, Concerns? Let Us Know!</h1>
-
 			<fieldset>
-			<legend>Send us an email!</legend>
+				<legend>Send us an email!</legend>
+
 				<label for="name">&#42;Name:</label>
 					<input type="text" name="name" id="name" required placeholder="John Smith">
 				<label for="email">&#42;E-mail:</label>
 					<input type="email" name="email" id="email" required placeholder="example@example.com">
 				<label for="message">&#42;Message:</label>
-					<textarea  type="text" name="message" id="message" required placeholder="Type here..."></textarea>	
-
-
-			<ul id="inputButtons">
-				<li><input type="button" value="Send" onClick="email(this.form)" class="button colorShift"></li>
-				<li><input type="reset" class="button colorShift"></li>
-			</ul>
+					<textarea  type="text" name="message" id="message" required placeholder="Type here..."></textarea>
 			</fieldset>
 
+			<fieldset>
+				<legend>Did you like our website?</legend>
+				<ul>
+				<li>
+					<input type="radio" name="like" value="yes" checked>
+					<label for="like" class="radio">Yes, it was very good!</label>
+				</li>
+				<li>
+					<input type="radio" name="like" value="no">
+					<label for="like" class="radio">No, it needs work</label>
+				</li>
+				</ul>
+			</fieldset>
+			<fieldset>
+				<legend>Which bee is your favorite?</legend>
+				<select name="bee">
+					<option value="select">Select Bee:</option>
+					<option value="honey">Honey Bee</option>
+					<option value="bumble">Bumble Bee</option>
+					<option value="leafcutter/mason">Leafcutter/Mason Bee</option>
+					<option value="digger/carpenter">Digger/Carpenter Bee</option>
+					<option value="mining">Mining Bee</option>
+				</select>
+			</fieldset>
 		</form>
+		<button onClick="submit()" class="button colorShift">Send</button>
 		</main>
 	<footer>
 		
