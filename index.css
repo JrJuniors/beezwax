@@ -42,11 +42,9 @@ img[class^="nav"]{
 #dom{
 	max-width: 50%;
 	padding: 0;
-	border-left: solid thin #CD901D;/*
-	float: right;
-	position: relative;
-	position: right;*/
+	border-left: solid thin #CD901D;
 	display: inline-block;
+	text-align: right;
 }
 nav{
 	background-color: #CD901D;
