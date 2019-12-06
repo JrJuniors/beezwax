@@ -97,7 +97,7 @@ footer ul{
 }
 
 img{
-	max-width: 600px;
+	max-width: 35%;
 	height: auto;
 }
 img[class^="nav"]{
