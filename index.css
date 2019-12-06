@@ -31,7 +31,7 @@ img[class^="nav"]{
 }
 
 #josh{
-	width: 50%;
+	width: 45%;
 	padding: 0;
 	border-right: solid thin #CD901D;
 	display: inline-block;
@@ -40,7 +40,7 @@ img[class^="nav"]{
 	max-width:90%;
 }
 #dom{
-	width: 50%;
+	width: 45%;
 	padding: 0;
 	display: inline-block;
 	text-align: right;
@@ -48,6 +48,7 @@ img[class^="nav"]{
 #info{
 	border-top:solid thin #CD901D;
 	border-bottom:solid thin #CD901D;
+	text-align:center;
 	padding: 0;
 	margin: 0;
 	width:100%;
@@ -230,7 +231,7 @@ desktop: 769 ->
 		text-align:center;
 		border:none;
 		padding:2.5%;
-		max-width:100%;
+		width:100%;
 	}
 	#josh img,#dom img{max-width:75%;}
 }
