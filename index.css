@@ -141,6 +141,7 @@ th{
 th, td{
 	border-bottom: 1px solid #dddddd;
 	text-align: center;
+	vertical-align: center;
 }
 
 table img{
