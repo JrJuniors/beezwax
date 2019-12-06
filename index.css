@@ -23,6 +23,10 @@
 	transition
 }
 
+#josh{
+	padding: 2.5%;
+	border-right: solid thin #E0BA59;
+}
 nav{
 	background-color: #CD901D;
 	text-align: center;
@@ -204,6 +208,6 @@ desktop: 769 ->
 	nav li{display:block; margin: 0px; padding: 2px 0px;}
 	nav strong{display:inline-block;}
 	textarea{width: 15em;}
-	#josh,#dom{text-align:center;}
+	#josh,#dom{text-align:center;border:none;padding:0;}
 	#josh img,#dom img{max-width:75%;}
 }
