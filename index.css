@@ -112,7 +112,7 @@ th, td{
 	text-align: center;
 }
 
-tr:nth-child(even){background-color: rgba(221,221,221,0.5);}
+tr:nth-child(even){background-color: rgba(205,145,30,.5);}
 
 footer{
 	padding-top: 5px;
