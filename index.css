@@ -153,16 +153,19 @@ input[type^=radio]{
 	margin: 10px 0 0 100px;
 	display: inline;
 }
+#waspDiv input[type^=radio]{
+	margin: 0;
+}
 select{
 	margin: 10px 0 0 100px;
 	padding: 7px;
 	font-weight: bold;
 }
-fieldset ul{
+fieldset ul,#waspDiv ul{
 	list-style: none;
 	padding: 0;
 }
-fieldset li{
+fieldset li,#waspDiv li{
 	padding-bottom: 5px;
 }
 .button{
