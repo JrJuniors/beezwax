@@ -161,12 +161,6 @@ footer ul{
 	padding: 5px 0px;
 }
 
-
-fieldset{
-	text-size:150%;
-	border:none;
-}
-
 label{
 	float: left;
 	width: 100px;
@@ -199,15 +193,6 @@ select{
 	margin: 10px 0 0 100px;
 	padding: 7px;
 	font-weight: bold;
-}
-
-fieldset ul{
-	list-style: none;
-	padding: 0;
-}
-
-fieldset li{
-	padding-bottom: 5px;
 }
 
 .button{
