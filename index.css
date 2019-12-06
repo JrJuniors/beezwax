@@ -51,6 +51,15 @@ img[class^="nav"]{
 	margin: 0;
 	width:100%;
 }
+#waspImg{
+	width: 35%;
+	margin: 10px;
+}
+#waspRadios ul{
+	list-style:none;
+	margin: 0px;
+	padding: 0px;
+}
 nav{
 	background-color: #CD901D;
 	text-align: center;
@@ -153,19 +162,17 @@ input[type^=radio]{
 	margin: 10px 0 0 100px;
 	display: inline;
 }
-#waspDiv input[type^=radio]{
-	margin: 0;
-}
+
 select{
 	margin: 10px 0 0 100px;
 	padding: 7px;
 	font-weight: bold;
 }
-fieldset ul,#waspDiv ul{
+fieldset ul{
 	list-style: none;
 	padding: 0;
 }
-fieldset li,#waspDiv li{
+fieldset li{
 	padding-bottom: 5px;
 }
 .button{
