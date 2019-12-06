@@ -24,6 +24,7 @@
 }
 
 #josh{
+	max-width: 35%;
 	padding: 2.5%;
 	border-right: solid thin #E0BA59;
 }
