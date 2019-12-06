@@ -96,6 +96,9 @@ footer ul{
 	padding: 5px 0px;
 }
 
+img{
+	max-width: 600px;
+}
 img[class^="nav"]{
 	border: solid #CD901D;
 	padding: 5px;
