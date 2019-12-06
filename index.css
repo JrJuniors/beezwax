@@ -204,4 +204,6 @@ desktop: 769 ->
 	nav li{display:block; margin: 0px; padding: 2px 0px;}
 	nav strong{display:inline-block;}
 	textarea{width: 15em;}
+	#josh,#dom{text-align:center;}
+	#josh img,#dom img{max-width:75%;}
 }
