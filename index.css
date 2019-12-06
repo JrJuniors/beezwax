@@ -148,7 +148,7 @@ table img{
 	width: 85%;
 	padding: 10px 0;
 }
-tr:nth-child(even){background-color: rgba(205,145,30,.5);}
+tr:nth-child(even){background-color: rgba(205,145,30,0.25);}
 
 footer{
 	padding-top: 5px;
