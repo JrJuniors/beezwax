@@ -1,4 +1,4 @@
-document.getElementByName("wasp").addEventListener("click", submit);
+//document.getElementByName("wasp").addEventListener("click", submit);
 
 //function detect(){
   alert("woo");
