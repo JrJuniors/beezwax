@@ -235,6 +235,7 @@ textarea{
 a[class^=email]{
 	color: #CD901D;
 	text-decoration: none;
+	font-weight: bold;
 }
 /*
 phone: <- 480
