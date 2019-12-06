@@ -222,7 +222,7 @@ select{
 	margin: 5px 10px;
 }
 
-.shadow{
+h1[class^=shadow]{
 	text-shadow: 3px 3px 7px rgba(205,145,30,0.25);
 }
 button[class^="navButton"]{
