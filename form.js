@@ -1,3 +1,15 @@
+/*
+Dominic Lutz
+Joshua Peoples
+12/6/2019
+Professor Kinuthia
+ISYS 288 - 001
+
+JavaScript document that validates the information entered into the form,
+and uses a mailto: link to open the user's email application and autofills
+the given information into the new email.
+*/
+
 document.getElementById("btn").addEventListener("click", submit);
 function submit(){
 	var name = document.getElementById("name").value;
