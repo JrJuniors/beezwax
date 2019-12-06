@@ -1,3 +1,14 @@
+/*
+Dominic Lutz
+Joshua Peoples
+12/6/2019
+Professor Kinuthia
+ISYS 288 - 001
+
+JavaScript document that listens to the radio buttons and automatically switches 
+the wasp picture to whichever one is selected 
+*/
+
 rad1 = document.getElementById("wasp1");
 rad2 = document.getElementById("wasp2");
 rad3 = document.getElementById("wasp3");
