@@ -125,7 +125,7 @@ h1{
 
 caption{
 	font-weight: bold;
-	text-size: 16px;
+	text-size: 24px;
 }
 table {
 	border-collapse: collapse;
@@ -143,6 +143,10 @@ th, td{
 	text-align: center;
 }
 
+table img{
+	width: 35%;
+	padding: 10px 0;
+}
 tr:nth-child(even){background-color: rgba(205,145,30,.5);}
 
 footer{
