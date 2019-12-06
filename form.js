@@ -7,8 +7,10 @@ function submit(){
   var radio = document.getElementById("radio");
   var select = document.getElementById("select");
   
+  alert(name.value);
+  
   if (name.value == "") {
-    alert("Name must be filled out!");
+   // alert("Name must be filled out!");
     name.style.background-color = "BlanchedAlmond"
     return false;
   }
