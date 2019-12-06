@@ -67,6 +67,7 @@ img[class^="nav"]{
 	width: 35%;
 	margin: 10px;
 	border: solid #CD901D;
+	box-shadow: 5px 10px 5px rgba(205,145,30,0.25);
 }
 
 #waspRadios ul{
