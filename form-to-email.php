@@ -33,7 +33,7 @@ $headers .= "Reply-To: $visitor_email \r\n";
 mail($to,$email_subject,$email_body,$headers);
 
 //done, redirect to ThankYou page.
-header('Location: ThankYou.html');
+header('Location: Aboutus.html');
 
 
 // Function to validate against any email injection attempts
