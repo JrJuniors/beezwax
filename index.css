@@ -51,6 +51,7 @@ img[class^="nav"]{
 	padding: 0;
 	margin: 0;
 	width:100%;
+}
 nav{
 	background-color: #CD901D;
 	text-align: center;
