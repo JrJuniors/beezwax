@@ -1,3 +1,5 @@
+document.getElementById("btnSend").addEventListener("click", submit);
+
 function submit(){
   var name = document.getElementById("name");
   var email = document.getElemenyById("email");
