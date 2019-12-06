@@ -35,19 +35,19 @@ function s(){
 	var waspImg = document.getElementById("waspImg");
 	switch (waspName) {
 		case "baldFacedHornet":
-			waspImg.src = "images/wasps/baldFacedHornet.jpg";
+			waspImg.src = "images/wasps/baldfacedhornet.jpg";
 			break;
 		case "northernPaperWasp":
-			waspImg.src = "images/wasps/northernPaperWasp.jpg";
+			waspImg.src = "images/wasps/northernpaperwasp.jpg";
 			break;
 		case "mudDauber":
-			waspImg.src = "images/wasps/mudDauber.jpg";
+			waspImg.src = "images/wasps/muddauber.jpg";
 			break;
 		case "threadWaistedWasp":
-			waspImg.src = "images/wasps/threadWaistedWasp.jpg";
+			waspImg.src = "images/wasps/threadwaistedwasp.jpg";
 			break;
 		case "groundDiggerWasp":
-			waspImg.src = "images/wasps/groundDiggerWasp.jpg";
+			waspImg.src = "images/wasps/grounddiggerasp.jpg";
 			break;
 	}
 	
