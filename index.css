@@ -31,7 +31,7 @@ img[class^="nav"]{
 }
 
 #josh{
-	max-width: 50%;
+	width: 50%;
 	padding: 0;
 	border-right: solid thin #CD901D;
 	display: inline-block;
@@ -40,7 +40,7 @@ img[class^="nav"]{
 	max-width:90%;
 }
 #dom{
-	max-width: 50%;
+	width: 50%;
 	padding: 0;
 	display: inline-block;
 	text-align: right;
@@ -50,7 +50,7 @@ img[class^="nav"]{
 	border-bottom:solid thin #CD901D;
 	padding: 0;
 	margin: 0;
-}
+	width:100%;
 nav{
 	background-color: #CD901D;
 	text-align: center;
