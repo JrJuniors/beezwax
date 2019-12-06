@@ -16,9 +16,9 @@
 	margin: 0px auto;
 	position: relative;
 }
-img{
+img{/*
 	max-width: 35%;
-	height: auto;
+	height: auto;*/
 }
 img[class^="nav"]{
 	border: solid #CD901D;
