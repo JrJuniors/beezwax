@@ -7,6 +7,7 @@
 	margin-right: auto;
 	font: Georgia, sans-serif;
 }
+
 #header{
 	top: 0%;
 	left: 0%;
@@ -24,7 +25,6 @@ img[class^="nav"]{
 
 #logo{
 	width: 30%;
-	transition
 }
 
 #josh{
@@ -34,15 +34,18 @@ img[class^="nav"]{
 	display: inline-block;
 	text-align:left;
 }
+
 #josh img, #dom img{
 	max-width:90%;
 }
+
 #dom{
 	width: 45%;
 	padding: 0;
 	display: inline-block;
 	text-align: right;
 }
+
 #info{
 	border-top:solid thin #CD901D;
 	border-bottom:solid thin #CD901D;
@@ -51,15 +54,18 @@ img[class^="nav"]{
 	margin: 0;
 	width:100%;
 }
+
 #waspImg{
 	width: 35%;
 	margin: 10px;
 }
+
 #waspRadios ul{
 	list-style:none;
 	margin: 0px;
 	padding: 0px;
 }
+
 nav{
 	background-color: #CD901D;
 	text-align: center;
@@ -72,10 +78,12 @@ nav ul{
 	margin: 0px;
 	padding: 0px;
 }
+
 nav li{
 	display: inline-block;
 	margin: 5px 5px;
 }
+
 nav strong{
 	display: none;
 	color: #E0BA59;
@@ -83,6 +91,7 @@ nav strong{
 	border-left: solid;
 	padding: 0em 0.5em;
 }
+
 #buffer{
 	height: 35px;
 	background-image: linear-gradient(#CD901D, #E0BA59);
@@ -104,6 +113,7 @@ main{
 h1{
 	color: #AB7817;
 }
+
 table {
 	border-collapse: collapse;
 	width: 100%;
@@ -138,6 +148,7 @@ fieldset{
 	text-size:150%;
 	border:none;
 }
+
 label{
 	float: left;
 	width: 100px;
@@ -146,6 +157,7 @@ label{
 	padding-right: 10px;
 	margin-top: 10px;
 }
+
 label[class^=radio]{
 	float: none;
 	width: 100px;
@@ -154,10 +166,12 @@ label[class^=radio]{
 	padding-right: 0;
 	margin-top: 0;
 }
+
 input{
 	display: block;
-	margin-top: 10px
+	margin-top: 10px;
 }
+
 input[type^=radio]{
 	margin: 10px 0 0 100px;
 	display: inline;
@@ -168,13 +182,16 @@ select{
 	padding: 7px;
 	font-weight: bold;
 }
+
 fieldset ul{
 	list-style: none;
 	padding: 0;
 }
+
 fieldset li{
 	padding-bottom: 5px;
 }
+
 .button{
 	background-color: #CD901D;
   	color: #E0BA59;
@@ -186,6 +203,7 @@ fieldset li{
 	display: inline-block;
 	margin-top: 10px;
 }
+
 .navButton{
 	background-color: #E6AA00;
 	color: #A55A14;
@@ -196,6 +214,7 @@ fieldset li{
 	display: inline-block;
 	margin: 5px 10px;
 }
+
 button[class^="navButton"]{
 	font-size: 5px;
 	font-weight: bold;
@@ -208,9 +227,11 @@ textarea{
 	height: 5em;
 	width: 25em;
 }
+
 .colorShift:hover{
 	filter: hue-rotate(345deg);
 }
+
 /*
 phone: <- 480
 tablet: 481 - 768
