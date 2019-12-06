@@ -232,6 +232,10 @@ textarea{
 	filter: hue-rotate(345deg);
 }
 
+a[class^=email]{
+	color: #CD901D;
+	text-decoration: none;
+}
 /*
 phone: <- 480
 tablet: 481 - 768
