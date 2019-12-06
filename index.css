@@ -123,6 +123,10 @@ h1{
 	color: #AB7817;
 }
 
+caption{
+	font-weight: bold;
+	text-size: 16px;
+}
 table {
 	border-collapse: collapse;
 	width: 100%;
